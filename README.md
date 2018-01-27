@@ -48,7 +48,7 @@ Merge_Subject was used for the files merged subject_test and train.
 
 The script displays the descriptive representation of the numeric data and displays two columns.
 
-##Approriately labels
+## Approriately labels
 
 The data set was combined according mean and standard deviation.
 
