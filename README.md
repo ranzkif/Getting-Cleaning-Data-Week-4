@@ -23,11 +23,11 @@ You should create one R script called run_analysis.R that does the following. 
 4.	Appropriately labels the data set with descriptive variable names. 
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##README.
+## README.
 
 This repo explains how all of the scripts work and how they are connected.
 
-##Reads the test data.
+## Reads the test data.
 
 The data was downloaded and unzip in the local computer prior to scripting of R codes.
 The test text file data was read from the directory assigned to the following variables:
@@ -35,16 +35,16 @@ The test text file data was read from the directory assigned to the following va
   Y_test was used for the Y_test.txt, and
   Subject_test was used for subject_test.txt.
 
-##Reads the activity and features data.
+## Reads the activity and features data.
 
 The variable assigned for activity_labels.txt and features.txt was activity_labels and features respectively.
 
-##Merging of data
+## Merging of data
 
 Variable Merge_X holds the merge data for X train and test while Merge_Y holds data for Y train and test. 
 Merge_Subject was used for the files merged subject_test and train.
 
-##Descriptive activity names
+## Descriptive activity names
 
 The script displays the descriptive representation of the numeric data and displays two columns.
 
